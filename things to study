@@ -1,0 +1,405 @@
+I think this roadmap is very strong, but I'd make one important change based on your experience.
+
+You already have:
+
+* ~9 years of backend development
+* FastAPI/Python experience
+* SQL databases
+* Docker
+* HVAC/BMS domain expertise
+* Experience building enterprise software
+
+Your bottleneck is **AI concepts**, not software engineering. So I'd keep the roadmap, but make **projects drive the learning**.
+
+---
+
+# Complete Roadmap (8–10 Months)
+
+## Phase 1 — Machine Learning Fundamentals (4–6 Weeks)
+
+### Goal
+
+Understand how machine learning works and deploy your first models.
+
+### Learn
+
+### Week 1
+
+* Python for Data
+* NumPy
+* Pandas
+
+### Week 2
+
+* Data cleaning
+* Feature engineering
+* Data preprocessing
+
+### Week 3
+
+* scikit-learn
+* Train/Test split
+* Pipelines
+
+### Week 4
+
+* Regression
+* Classification
+* Clustering
+* Model evaluation
+
+---
+
+### Projects
+
+### Project 1
+
+House Price Predictor
+
+You'll learn
+
+* Linear Regression
+* MAE
+* RMSE
+* Feature engineering
+
+Deploy
+
+```
+FastAPI
+
+↓
+
+Predict House Price
+```
+
+---
+
+### Project 2
+
+Customer Churn Predictor
+
+You'll learn
+
+* Random Forest
+* Logistic Regression
+* Precision
+* Recall
+* F1 Score
+
+Deploy
+
+```
+POST /predict
+```
+
+---
+
+### Project 3
+
+Fraud Detection API
+
+Deploy
+
+```
+FastAPI
+
+↓
+
+ML Model
+
+↓
+
+Swagger
+
+↓
+
+Prediction API
+```
+
+---
+
+## Phase 2 — Deep Learning (6–8 Weeks)
+
+Don't try to master every architecture. Focus on understanding how neural networks learn.
+
+### Learn
+
+* Tensors
+* PyTorch
+* Neural Networks
+* Backpropagation
+* CNNs
+* RNNs
+* Attention
+* Transformers (high level)
+
+### Projects
+
+### Image Classifier
+
+Cats vs Dogs
+
+Learn
+
+* CNN
+* Data augmentation
+* GPU training
+
+---
+
+### Sentiment Analysis
+
+Movie Reviews
+
+Learn
+
+* Embeddings
+* Text preprocessing
+* Classification
+
+---
+
+### Text Classifier
+
+Example
+
+```
+Complaint
+
+↓
+
+Billing
+
+Technical
+
+Sales
+```
+
+---
+
+## Phase 3 — LLM Engineering (8–10 Weeks)
+
+This is the highest ROI phase for you.
+
+### Learn
+
+* Transformer intuition
+* Tokenization
+* Prompt engineering
+* Embeddings
+* Vector search
+* RAG
+* Tool/function calling
+* AI agents
+* Evaluation
+
+### Tools
+
+* Hugging Face
+* Ollama
+* LangChain (or LlamaIndex)
+* ChromaDB (or FAISS)
+* vLLM
+
+---
+
+### Project 1
+
+ChatGPT Clone
+
+Learn
+
+* Chat completion APIs
+* Streaming
+* Conversation history
+* Authentication
+* PostgreSQL storage
+
+---
+
+### Project 2
+
+Chat with PDFs
+
+Learn
+
+* Embeddings
+* Chunking
+* Vector databases
+* RAG
+
+---
+
+### Project 3
+
+Documentation Assistant
+
+Index
+
+* FastAPI docs
+* HVAC manuals
+* BACnet specifications
+* Internal documentation
+
+Query
+
+```
+Where is AHU scheduling implemented?
+```
+
+---
+
+### Project 4
+
+AI SQL Assistant
+
+```
+Natural Language
+
+↓
+
+SQL Query
+
+↓
+
+Database
+
+↓
+
+Result
+```
+
+This aligns well with your existing SQL expertise.
+
+---
+
+### Project 5
+
+AI Code Reviewer
+
+Features
+
+* Pull request summaries
+* Bug detection
+* Refactoring suggestions
+* Security checks
+
+---
+
+## Phase 4 — MLOps (4–6 Weeks)
+
+Now focus on running AI systems reliably.
+
+### Learn
+
+* MLflow
+* Model versioning
+* Docker
+* Kubernetes (basics)
+* BentoML or Ray Serve
+* GPU deployment
+* Batch vs. real-time inference
+* Monitoring and logging
+
+### Deploy
+
+* FastAPI + scikit-learn model
+* FastAPI + PyTorch model
+* Streaming LLM API
+* Background workers
+* Rate limiting
+* Caching
+
+---
+
+## Phase 5 — AI System Design (4–6 Weeks)
+
+This is where experienced backend engineers stand out.
+
+### Learn
+
+* RAG architecture
+* Hybrid search
+* Vector search
+* Multi-agent systems
+* Model routing
+* AI gateway patterns
+* Caching strategies
+* Token management
+* Cost optimization
+* Observability
+
+Study how production systems are built, not just how models work.
+
+---
+
+# Capstone Portfolio Projects
+
+These should demonstrate production engineering as much as AI capability.
+
+1. Enterprise RAG chatbot
+2. AI customer support assistant
+3. AI document search platform
+4. AI code review assistant
+5. Meeting summarizer
+6. Resume screening platform
+7. Multi-agent research assistant
+8. Voice AI assistant
+9. AI workflow automation
+10. Production LLM gateway
+
+---
+
+# Learning Priority
+
+| Stage | Topic                        | Priority |
+| ----- | ---------------------------- | -------- |
+| 1     | NumPy                        | ⭐⭐⭐⭐⭐    |
+| 2     | Pandas                       | ⭐⭐⭐⭐⭐    |
+| 3     | scikit-learn                 | ⭐⭐⭐⭐⭐    |
+| 4     | PyTorch                      | ⭐⭐⭐⭐⭐    |
+| 5     | Transformers                 | ⭐⭐⭐⭐     |
+| 6     | Hugging Face                 | ⭐⭐⭐⭐⭐    |
+| 7     | Embeddings                   | ⭐⭐⭐⭐⭐    |
+| 8     | RAG                          | ⭐⭐⭐⭐⭐    |
+| 9     | LangChain/LlamaIndex         | ⭐⭐⭐⭐     |
+| 10    | Vector databases             | ⭐⭐⭐⭐⭐    |
+| 11    | AI agents                    | ⭐⭐⭐⭐     |
+| 12    | MLflow                       | ⭐⭐⭐      |
+| 13    | Kubernetes for ML            | ⭐⭐⭐      |
+| 14    | GPU inference & optimization | ⭐⭐⭐      |
+
+---
+
+# Just-in-Time Learning
+
+Rather than reading every topic in advance, learn concepts when a project requires them.
+
+For example:
+
+* Need semantic search? → Learn embeddings.
+* Need document-aware answers? → Learn RAG.
+* Responses are slow? → Learn caching and batching.
+* Hallucinations are a problem? → Learn evaluation and prompt design.
+* Multiple specialized tasks? → Learn tool calling and agents.
+
+This makes each concept immediately useful and easier to retain.
+
+---
+
+# A Specialized Track for Your HVAC/BMS Domain
+
+After the general AI projects, build domain-specific applications:
+
+1. **Predictive maintenance** for AHUs, chillers, pumps, and VAVs.
+2. **Energy consumption forecasting** using regression models.
+3. **Sensor anomaly detection** for BACnet/Modbus telemetry.
+4. **Natural-language BMS assistant** ("Show all AHUs with high discharge temperature.").
+5. **AI alarm correlation** to identify root causes across equipment.
+6. **Maintenance knowledge assistant** that answers questions from equipment manuals and SOPs using RAG.
+
+These projects combine your existing HVAC expertise with AI engineering, creating a portfolio that's much more distinctive than generic ML demos.
+
+By the end of this roadmap, you'll be able to design, build, deploy, and operate AI-powered backend systems—from traditional machine learning models to production-ready LLM applications—using the engineering skills you already have as a strong foundation.
+
